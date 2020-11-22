@@ -1,0 +1,99 @@
+// Start Navbar
+
+.nav-link {
+  color: #000 !important;
+  font-weight: bold;
+    &:hover {
+      color: #6c757d !important;
+    }
+}
+
+// End Navbar
+
+// Start Landing Page
+
+.landing-page {
+  padding: 100px 0;
+  h1 {
+    color: #050505;
+  }
+  .btn-dark {
+    background-color: #050505;
+  }
+  .drop{
+    animation: slide 2s ease-in-out;
+  }
+  .slide {
+    animation: drop 2s ease-in-out;
+  }
+}
+
+// End Landing Page
+
+// Start value
+
+.values {
+  padding: 0 0 100px 0;
+}
+
+// End value
+
+// Start value
+
+.definition {
+  padding: 0 0 100px 0;
+  .read-more {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    &:hover {
+      color: blue;
+    }
+  }
+}
+
+// End value
+
+// Start benefits
+
+.benefits {
+  .btn-dark {
+    background-color: #050505;
+  }
+}
+
+// End benefits
+
+// Start Footer
+
+.footer {
+  background-color: #050505;
+  color: #fff !important;
+}
+
+// End Footer
+
+// Strat Keyframe
+
+@keyframes slide {
+  0%{
+    opacity: 0;
+		transform: translateX(-100px);
+  }
+  100%{
+    opacity: 1;
+		transform: translateX(0px);
+  }
+}
+
+@keyframes drop {
+  0%{
+    opacity: 0;
+		transform: translateY(-100px);
+  }
+  100%{
+    opacity: 1;
+		transform: translateY(0px);
+  }
+}
+// End Keyframe
